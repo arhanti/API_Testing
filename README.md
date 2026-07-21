@@ -54,6 +54,36 @@ E-Commerce-API-Testing
 ```
 
 
+## 🔄 API Testing Workflow
+
+Login
+↓
+
+Capture Token
+↓
+
+Store Environment Variable
+↓
+
+Execute Product APIs
+↓
+
+Validate Response
+↓
+
+Execute Cart APIs
+↓
+
+Run Postman Collection
+↓
+
+Publish Postman Documentation
+↓
+
+Run Newman Collection
+↓
+
+Generate Newman Report
 
 ## 📑 APIs Covered
 
@@ -133,10 +163,7 @@ E-Commerce-API-Testing
 
 
 
-
-
-
-# 🔄 API Chaining
+# 🔗 API Chaining
 
 This project demonstrates API chaining by:
 
