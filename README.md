@@ -42,11 +42,10 @@ The collection validates:
 
 ## 📂 Project Structure
 
-```text
 E-Commerce API Testing
 |
 |---README.md
-```
+
 
 
 ## 📑 APIs Covered
