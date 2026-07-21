@@ -25,7 +25,7 @@ The collection validates:
 - API Chaining
 - Environment Variables
 - Collection Variables
-- Newman Automation
+- Newman Automation and Reporting
 
 
 ## 🛠 Tech Stack
@@ -38,3 +38,17 @@ The collection validates:
 | REST API | API Communication |
 | JSON | Request & Response |
 | GitHub | Version Control |
+
+
+## 📂 Project Structure
+
+```text
+E-Commerce-API-Testing
+│
+├── README.md
+├── Postman Collection
+├── Newman Reports
+├── Postman Documentation
+├── Test Cases
+└── Screenshots
+```
