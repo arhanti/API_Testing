@@ -158,3 +158,12 @@ The collection can be executed using Newman.
 
 ```bash
 newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment.postman_environment.json" -r cli,htmlextra --reporter-htmlextra-export "E-Commerce API Testing.html"
+
+
+
+
+# 📸 Project Screenshots
+
+## Postman Collection
+
+![Collection](Screenshots/PostmanCollection.png)
