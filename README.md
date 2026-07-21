@@ -105,3 +105,14 @@ E-Commerce-API-Testing
 ✔ Newman Execution
 
 ✔ HTML Reporting
+
+
+
+# 🔄 API Chaining
+
+This project demonstrates API chaining by:
+
+- Logging in and storing the access token.
+- Reusing Product IDs.
+- Reusing Cart IDs.
+- Passing variables between requests.
