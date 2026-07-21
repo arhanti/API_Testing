@@ -26,3 +26,15 @@ The collection validates:
 - Environment Variables
 - Collection Variables
 - Newman Automation
+
+
+## 🛠 Tech Stack
+
+| Tool | Purpose |
+|-------|----------|
+| Postman | API Testing |
+| Newman | Automated Execution |
+| JavaScript | Test Assertions |
+| REST API | API Communication |
+| JSON | Request & Response |
+| GitHub | Version Control |
