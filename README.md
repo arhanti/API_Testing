@@ -42,9 +42,16 @@ The collection validates:
 
 ## 📂 Project Structure
 
-E-Commerce API Testing
-|
-|---README.md
+```text
+E-Commerce-API-Testing
+│
+├── README.md
+├── Postman Collection
+├── Newman Reports
+├── Postman Documentation
+├── Test Cases
+└── Screenshots
+```
 
 
 
