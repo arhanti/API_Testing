@@ -162,3 +162,7 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 
 ## 📸 Project Screenshots
+
+## Postman Collection
+
+![Collection](Screenshots/PostmanCollection.PNG)
