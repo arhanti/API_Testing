@@ -243,3 +243,19 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 - HTML Reporting
 
 
+# 👩‍💻 Author
+
+**Arhanti Gawde**
+
+Software Test Engineer
+
+**Skills**
+
+- Functional Testing
+- API Testing
+- Postman
+- Newman
+- SQL
+- Business Analysis
+- Requirement Management
+- Agile
