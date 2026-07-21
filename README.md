@@ -224,6 +224,9 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 ![Newman Summary](Screenshots/NewmanSummary.PNG)
 
+**Newman Report Assertions**
+![Newman Assertions](Screenshots/NewmanAssertions.PNG)
+
 
 # 💡 Skills Demonstrated
 
@@ -239,5 +242,4 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 - Newman Automation
 - HTML Reporting
 
-**Newman Report Assertions**
-![Newman Assertions](Screenshots/NewmanAssertions.PNG)
+
