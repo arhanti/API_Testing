@@ -163,27 +163,27 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 ## 📸 Project Screenshots
 
-## Postman Collection
+Postman Collection
 
 ![Collection](Screenshots/PostmanCollection.PNG)
 
-## Environment Variables
+Environment Variables
 
 ![Environment](Screenshots/EnvironmentVariables.PNG)
 
-## Collection Variables
+Collection Variables
 
 ![Collection Variables](Screenshots/CollectionVariables.PNG)
 
-## Sample API Response
+Sample API Response
 
 ![API Response](Screenshots/SampleAPIResponse.PNG)
 
-## Collection Runner
+Collection Runner
 
 ![Collection Runner](Screenshots/CollectionRunner.PNG)
 
-# Postman Documentation
+Postman Documentation
 
 ![Postman Documentation](Screenshots/PostmanDocumentation.PNG)
 
