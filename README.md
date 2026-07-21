@@ -9,6 +9,7 @@ A complete REST API Testing project demonstrating Authentication, CRUD Operation
 ![API Testing](https://img.shields.io/badge/API-Testing-success)
 
 
+
 ## 📌 Project Overview
 
 This project demonstrates end-to-end API testing of the DummyJSON E-Commerce REST APIs using Postman and Newman.
