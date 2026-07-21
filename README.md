@@ -78,3 +78,30 @@ E-Commerce-API-Testing
 - Update Cart
 - Delete Cart
 - Add Product to Cart
+
+
+## ✅ Features Tested
+
+✔ Authentication
+
+✔ CRUD Operations
+
+✔ API Chaining
+
+✔ Environment Variables
+
+✔ Collection Variables
+
+✔ JSON Parsing
+
+✔ Response Validation
+
+✔ Status Code Validation
+
+✔ Response Time Validation
+
+✔ Header Validation
+
+✔ Newman Execution
+
+✔ HTML Reporting
