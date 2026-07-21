@@ -52,3 +52,29 @@ E-Commerce-API-Testing
 ├── Test Cases
 └── Screenshots
 ```
+
+
+## 📑 APIs Covered
+
+### Authentication
+
+- Login
+- Get Current User Profile
+
+### Products
+
+- Get All Products' Details
+- Get 1 Product Details
+- Add a New Product
+- Update Product
+- Delete Product
+- Limit and Skip Products
+
+### Carts
+
+- Get All Carts' Details
+- Get 1 Cart Details
+- Add a New Cart
+- Update Cart
+- Delete Cart
+- Add Product to Cart
