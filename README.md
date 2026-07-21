@@ -120,6 +120,20 @@ E-Commerce-API-Testing
 | base_URL | https://dummyjson.com |
 
 
+# 📁 Collection Variables
+
+| Variable | Description |
+|----------|-------------|
+| ecom_token | token_value |
+| Product_IdNo | 1 |
+| Cart_IdNo | 209 |
+| addedProduct_id | 195 |
+| cart_Id | 1 |
+
+
+
+
+
 
 
 # 🔄 API Chaining
