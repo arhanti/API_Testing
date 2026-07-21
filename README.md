@@ -116,3 +116,9 @@ This project demonstrates API chaining by:
 - Reusing Product IDs.
 - Reusing Cart IDs.
 - Passing variables between requests.
+
+
+## 📖 API Documentation
+
+Published Postman Documentation:
+https://documenter.getpostman.com/view/56306544/2sBY4PQLc5
