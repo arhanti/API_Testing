@@ -113,6 +113,15 @@ E-Commerce-API-Testing
 
 
 
+# 🌍 Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| base_URL | https://dummyjson.com |
+
+
+
+
 # 🔄 API Chaining
 
 This project demonstrates API chaining by:
