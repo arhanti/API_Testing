@@ -69,6 +69,7 @@ E-Commerce-API-Testing
 - Update Product
 - Delete Product
 - Limit and Skip Products
+- Negative Scenario_Get 1 Product Details
 
 ### Carts
 
@@ -78,6 +79,7 @@ E-Commerce-API-Testing
 - Update Cart
 - Delete Cart
 - Add Product to Cart
+- Negative Scenario_Update Cart
 
 
 ## ✅ Features Tested
@@ -95,6 +97,8 @@ E-Commerce-API-Testing
 ✔ JSON Parsing
 
 ✔ Response Validation
+
+✔ Negative Case Validation
 
 ✔ Status Code Validation
 
@@ -122,3 +126,11 @@ This project demonstrates API chaining by:
 
 Published Postman Documentation:
 https://documenter.getpostman.com/view/56306544/2sBY4PQLc5
+
+
+## 📊 Newman Report
+
+The collection can be executed using Newman.
+
+```bash
+newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment.postman_environment.json" -r cli,htmlextra --reporter-htmlextra-export "E-Commerce API Testing.html"
