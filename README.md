@@ -43,7 +43,7 @@ The collection validates:
 ## 📂 Project Structure
 
 ```text
-E-Commerce-API-Testing
+ E-Commerce-API-Testing
 │
 ├── README.md
 ├── Postman Collection
