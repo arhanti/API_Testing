@@ -177,7 +177,7 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 ## Sample API Response
 
-![API Response](Screenshots/Sample API Response.PNG)
+![API Response](Screenshots/SampleAPIResponse.PNG)
 
 ## Collection Runner
 
