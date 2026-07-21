@@ -224,5 +224,20 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 ![Newman Summary](Screenshots/NewmanSummary.PNG)
 
+
+# 💡 Skills Demonstrated
+
+- REST API Testing
+- Functional Testing
+- CRUD Operations
+- API Chaining
+- Postman Collections
+- Environment Variables
+- JavaScript Assertions
+- Response Validation
+- API Documentation
+- Newman Automation
+- HTML Reporting
+
 **Newman Report Assertions**
 ![Newman Assertions](Screenshots/NewmanAssertions.PNG)
