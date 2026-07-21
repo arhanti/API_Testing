@@ -183,7 +183,7 @@ Collection Runner
 
 ![Collection Runner](Screenshots/CollectionRunner.PNG)
 
-Postman Documentation
+**Postman** Documentation
 
 ![Postman Documentation](Screenshots/PostmanDocumentation.PNG)
 
