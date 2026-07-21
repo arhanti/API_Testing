@@ -56,6 +56,7 @@ E-Commerce-API-Testing
 
 ## 🔄 API Testing Workflow
 
+```text
 Login
 ↓
 
@@ -84,6 +85,7 @@ Run Newman Collection
 ↓
 
 Generate Newman Report
+```
 
 ## 📑 APIs Covered
 
