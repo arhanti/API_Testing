@@ -183,7 +183,7 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 ![Collection Runner](Screenshots/CollectionRunner.PNG)
 
-## Postman Documentation
+# Postman Documentation
 
 ![Postman Documentation](Screenshots/PostmanDocumentation.PNG)
 
