@@ -1,0 +1,572 @@
+{
+	"id": "e7a2e485-6fd6-44f7-b201-eea9f55dd4cb",
+	"name": "E-Commerce API Testing",
+	"timestamp": "2026-07-21T18:03:24.403Z",
+	"collection_id": "56306544-96deb197-fdf8-44b4-a2b7-c25893763525",
+	"folder_id": 0,
+	"environment_id": "56306544-0c1bf30f-16bf-4bab-8959-61cbf9ce2493",
+	"totalPass": 25,
+	"delay": "3",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-07-21T18:03:17.327Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f720fced-c245-4d6a-b157-ff07056f7d89",
+			"name": "Login",
+			"url": "https://dummyjson.com/auth/login",
+			"time": 401,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				401
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e5ee17a0-730a-414b-a3fe-36622f8245f2",
+			"name": "Get Current User Profile",
+			"url": "https://dummyjson.com/auth/me",
+			"time": 282,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "552c7dd4-070c-4cc1-beef-9fca43d82398",
+			"name": "Get All Products Details",
+			"url": "https://dummyjson.com/products",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Multiple Products Exist": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Multiple Products Exist": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Multiple Products Exist": true
+				}
+			]
+		},
+		{
+			"id": "cbdacdfe-e164-448e-a852-f7541e72f4e9",
+			"name": "Get 1 Product Details",
+			"url": "https://dummyjson.com/products/1",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Testing the Data Types": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Testing the Data Types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Testing the Data Types": true
+				}
+			]
+		},
+		{
+			"id": "f048cb21-1da7-4c3d-9386-51b7ccc5ca69",
+			"name": "Updating a Product",
+			"url": "https://dummyjson.com/products/1",
+			"time": 1084,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Code is OK,": true
+			},
+			"testPassFailCounts": {
+				"Status Code is OK,": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1084
+			],
+			"allTests": [
+				{
+					"Status Code is OK,": true
+				}
+			]
+		},
+		{
+			"id": "9aa77e12-21da-4fd3-970a-e8671d35dddb",
+			"name": "Deleting a Product",
+			"url": "https://dummyjson.com/products/1",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "90f690aa-e357-4363-9ad6-4bea191aa50d",
+			"name": "Limit & Skip Products",
+			"url": "https://dummyjson.com/products?limit=3&skip=5",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains only 3 records": true,
+				"Response contains 7th Product": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains only 3 records": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains 7th Product": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains only 3 records": true,
+					"Response contains 7th Product": true
+				}
+			]
+		},
+		{
+			"id": "f3906f02-c580-4bbf-a688-a5e0905c9757",
+			"name": "Adding a New Product",
+			"url": "https://dummyjson.com/products/add",
+			"time": 278,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status Code is 201,": true
+			},
+			"testPassFailCounts": {
+				"Status Code is 201,": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Status Code is 201,": true
+				}
+			]
+		},
+		{
+			"id": "33bd65bc-eda9-42c4-9e87-ef7801d11efa",
+			"name": "Add Product to Cart",
+			"url": "https://dummyjson.com/carts/add",
+			"time": 276,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Cart now has a new Product": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cart now has a new Product": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Cart now has a new Product": true
+				}
+			]
+		},
+		{
+			"id": "db385cf2-25f1-4a19-b144-ecb9ba359229",
+			"name": "Negative_Get 1 Product Details",
+			"url": "https://dummyjson.com/products/abc",
+			"time": 277,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "e063a44f-445c-4dbb-ab4f-c44395cb8e69",
+			"name": "Get All Carts Details",
+			"url": "https://dummyjson.com/carts",
+			"time": 285,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Carts have Products": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Carts have Products": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Carts have Products": true
+				}
+			]
+		},
+		{
+			"id": "9c75767d-861a-43e8-9904-44434d2d5e69",
+			"name": "Get 1 Cart Details",
+			"url": "https://dummyjson.com/carts/1",
+			"time": 317,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Details of First Cart": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Details of First Cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				317
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Details of First Cart": true
+				}
+			]
+		},
+		{
+			"id": "f9bb38f4-f942-48d6-b6a1-9bea9bfc311d",
+			"name": "Updating a Cart",
+			"url": "https://dummyjson.com/carts/1",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Cart item is updated successfully": true,
+				"content-type Header exists": true
+			},
+			"testPassFailCounts": {
+				"Cart item is updated successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"content-type Header exists": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Cart item is updated successfully": true,
+					"content-type Header exists": true
+				}
+			]
+		},
+		{
+			"id": "901777dc-b654-4f75-9674-a991b165e90a",
+			"name": "Adding a New Cart",
+			"url": "https://dummyjson.com/carts/add",
+			"time": 277,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "dc096916-de3e-4c6c-9679-9b9f7cc1fb19",
+			"name": "Deleting a Cart",
+			"url": "https://dummyjson.com/carts/1",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "03ab777b-66f5-449a-af43-4241910d4d7d",
+			"name": "Negative_Update Cart",
+			"url": "https://dummyjson.com/carts/209",
+			"time": 277,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Invalid Cart Id": true
+			},
+			"testPassFailCounts": {
+				"Invalid Cart Id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Invalid Cart Id": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4918,
+	"collection": {
+		"requests": [
+			{
+				"id": "f720fced-c245-4d6a-b157-ff07056f7d89",
+				"method": "POST"
+			},
+			{
+				"id": "e5ee17a0-730a-414b-a3fe-36622f8245f2",
+				"method": "GET"
+			},
+			{
+				"id": "552c7dd4-070c-4cc1-beef-9fca43d82398",
+				"method": "GET"
+			},
+			{
+				"id": "cbdacdfe-e164-448e-a852-f7541e72f4e9",
+				"method": "GET"
+			},
+			{
+				"id": "f048cb21-1da7-4c3d-9386-51b7ccc5ca69",
+				"method": "PUT"
+			},
+			{
+				"id": "9aa77e12-21da-4fd3-970a-e8671d35dddb",
+				"method": "PUT"
+			},
+			{
+				"id": "90f690aa-e357-4363-9ad6-4bea191aa50d",
+				"method": "GET"
+			},
+			{
+				"id": "f3906f02-c580-4bbf-a688-a5e0905c9757",
+				"method": "POST"
+			},
+			{
+				"id": "33bd65bc-eda9-42c4-9e87-ef7801d11efa",
+				"method": "POST"
+			},
+			{
+				"id": "db385cf2-25f1-4a19-b144-ecb9ba359229",
+				"method": "GET"
+			},
+			{
+				"id": "e063a44f-445c-4dbb-ab4f-c44395cb8e69",
+				"method": "GET"
+			},
+			{
+				"id": "9c75767d-861a-43e8-9904-44434d2d5e69",
+				"method": "GET"
+			},
+			{
+				"id": "f9bb38f4-f942-48d6-b6a1-9bea9bfc311d",
+				"method": "PUT"
+			},
+			{
+				"id": "901777dc-b654-4f75-9674-a991b165e90a",
+				"method": "POST"
+			},
+			{
+				"id": "dc096916-de3e-4c6c-9679-9b9f7cc1fb19",
+				"method": "DELETE"
+			},
+			{
+				"id": "03ab777b-66f5-449a-af43-4241910d4d7d",
+				"method": "PUT"
+			}
+		]
+	}
+}
