@@ -194,7 +194,7 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 **Postman Collection**
 
-![Collection](Screenshots/
+![Collection](Screenshots/PostmanCollection.PNG)
 
 **Environment Variables**
 
@@ -214,11 +214,11 @@ newman run "E-Commerce API Testing.postman_collection.json" -e "ECom Environment
 
 **Postman** **Documentation**
 
-![Postman Documentation](Screenshots/
+![Postman Documentation](Screenshots/PostmanDocumentation.PNG)
 
 **Newman Collection Runner**
 
-![Newman Collection Runner](Screenshots/
+![Newman Collection Runner](Screenshots/NewmanCollectionRunner.PNG)
 
 **Newman Report Summary**
 
